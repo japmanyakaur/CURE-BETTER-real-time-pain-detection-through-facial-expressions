@@ -32,18 +32,18 @@ Snapshots are automatically saved when high pain levels are detected.
    source venv/bin/activate   # Linux/Mac
    venv\Scripts\activate      # Windows
    
- 4.  **Install dependencies**:
+ 3.  **Install dependencies**:
    ```bash 
    pip install -r requirements.txt
 ```
- 5. **Usage**:
+ 4. **Usage**:
    Run the app:
 ```bash
    python cure_better.py
    
 ```
 
- **Controls**:
+5. **Controls**:
 
   Press b → capture baseline (neutral face, no smile/frown)
   
