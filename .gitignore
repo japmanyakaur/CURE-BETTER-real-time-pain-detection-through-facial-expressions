@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# OS junk
+.DS_Store
+
+# Project-specific
+snapshots/
+baseline.json
