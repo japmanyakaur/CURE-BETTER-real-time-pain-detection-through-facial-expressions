@@ -10,7 +10,7 @@ Snapshots are automatically saved when high pain levels are detected.
 
 ---
 
-## 🚀 Features
+##  Features
 -  **Real-time webcam tracking** using MediaPipe FaceMesh  
 -  **Pain score estimation** from brows, eyes, mouth, and forehead landmarks  
 -  **Baseline calibration** – press `b` to capture your neutral face  
@@ -19,26 +19,30 @@ Snapshots are automatically saved when high pain levels are detected.
 
 ---
 
-## 🛠 Installation
+##  Installation
 
-1. Clone the repo:
+1. **Clone the repo**:
    ```bash
    git clone https://github.com/YOUR_USERNAME/cure-better.git
    cd cure-better
    
-2. Create a virtual environment:
+2. **Create a virtual environment**:
+   ```bash
    python -m venv venv
    source venv/bin/activate   # Linux/Mac
    venv\Scripts\activate      # Windows
    
- 3.  Install dependencies:
+ 4.  **Install dependencies**:
+    
+    ```bash
    pip install -r requirements.txt
 
-4. Usage:
+5. **Usage**:
    Run the app:
+   ```bash
    python cure_better.py
-
-   Controls:
+\
+   **Controls**:
 
   Press b → capture baseline (neutral face, no smile/frown)
   
@@ -46,7 +50,7 @@ Snapshots are automatically saved when high pain levels are detected.
   
   Snapshots of high pain moments are stored in the snapshots/ folder
 
-5. Output:
+6. **Output**:
 
   On-screen overlay shows:
   
@@ -54,4 +58,4 @@ Snapshots are automatically saved when high pain levels are detected.
   
   Band classification (None / Mild / Moderate / High)
 
-Debug dots drawn for forehead, brows, eyes, mouth, and cheeks
+  Debug dots drawn for forehead, brows, eyes, mouth, and cheeks
