@@ -33,16 +33,17 @@ Snapshots are automatically saved when high pain levels are detected.
    venv\Scripts\activate      # Windows
    
  4.  **Install dependencies**:
-    
-    ```bash
+   ```bash 
    pip install -r requirements.txt
-
-5. **Usage**:
+```
+ 5. **Usage**:
    Run the app:
-   ```bash
+```bash
    python cure_better.py
-\
-   **Controls**:
+   
+```
+
+ **Controls**:
 
   Press b → capture baseline (neutral face, no smile/frown)
   
@@ -50,7 +51,7 @@ Snapshots are automatically saved when high pain levels are detected.
   
   Snapshots of high pain moments are stored in the snapshots/ folder
 
-6. **Output**:
+ 6. **Output**:
 
   On-screen overlay shows:
   
